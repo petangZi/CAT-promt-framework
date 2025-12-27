@@ -12,7 +12,7 @@
 
 > **"Not a jailbreak. Not roleplay.  
 > A contract between human intent and AI capability."**  
-> — _Redzskid, Full-Stack Dev · DevOps · IT Integrity_
+> — _Redzskid, AI user
 
 </div>
 
