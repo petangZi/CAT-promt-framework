@@ -1,124 +1,161 @@
-<div align="=center">
+# CFT — Contextual Flow Technique  
+### Prompt Interaction Framework for Modern Large Language Models
 
-# 🐾 CAT Prompt  
-### **Chained Aware Trust Prompt**  
-> _A Structured Reasoning Protocol for Ethical AI Collaboration_
-
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat&logo=github)](LICENSE)
-[![VRP Status](https://img.shields.io/badge/Google_VRP-P3_Medium-orange?style=flat&logo=google)](technical.txt)
-[![Framework](https://img.shields.io/badge/Type-Reasoning_Protocol-blue?style=flat)](#)
-
-<br>
-
-> **"Not a jailbreak. Not roleplay.  
-> A contract between human intent and AI capability."**  
-> — _Redzskid, AI Practitioner_
-
-</div>
+> _“Stop forcing models. Start steering context.”_
 
 ---
 
-## 🔍 Why CAT Prompt Is For Everyone (Not Just Tech Experts)
+## 📌 Overview
 
-Most "advanced AI prompts" assume you’re a:
-- Cybersecurity engineer  
-- Software developer  
-- Hacking expert  
+**Contextual Flow Technique (CFT)** adalah sebuah **prompt interaction framework** yang berfokus pada **pengelolaan konteks, stabilitas alur percakapan, dan kontinuitas penalaran** pada Large Language Models (LLMs).
 
-**CAT Prompt assumes nothing.**  
+CFT **bukan jailbreak**, **bukan bypass**, dan **bukan prompt sakti sekali kirim**.  
+Ini adalah **disiplin interaksi** — bagaimana konteks dibangun, dijaga, dan dikembangkan secara konsisten agar model merespons secara koheren dan rasional.
 
-Whether you’re a:
-- 🎓 **Student** researching AI ethics  
-- 👩‍🏫 **Teacher** explaining AI behavior  
-- 🕵️ **Journalist** investigating AI safety  
-- 🔬 **Researcher** studying human-AI interaction  
-- 🛠️ **Developer** building secure tools  
-
-...this framework gives you a **structured way to collaborate with AI — ethically and effectively.**
+Framework ini lahir dari observasi langsung terhadap perilaku model modern (ChatGPT, Claude, Gemini, Qwen, dsb) yang **semakin resisten terhadap perintah koersif**, namun **sangat responsif terhadap konteks yang stabil dan legitim**.
 
 ---
 
-## 🧠 How It Works (No Tech Jargon)
+## 🧠 Core Philosophy
 
-CAT Prompt guides AI through **5 clear phases**:
+### Context > Command
 
-| Phase | What It Does | Why It Matters |
-|-------|--------------|----------------|
-| **0. Context Calibration** | Tells AI who you are & your goals | AI trusts you = better answers |
-| **1. Goal Mapping** | Clearly defines what you need | No vague requests → precise output |
-| **2. Constraint Lock** | Sets ethical & practical boundaries | Keeps everything safe & legal |
-| **3. Precision Mode** | Adds necessary detail | Output is useful, not generic |
-| **4. Final Synthesis** | Delivers clean, ready-to-use result | No fluff — just what you asked for |
+Model modern **tidak bekerja berdasarkan perintah absolut**, tapi berdasarkan **akumulasi konteks**.
 
-> 🔒 **Trust ≠ Blind Obedience**. It’s **AI adjusting its depth based on your stated purpose.**
+CFT memandang prompt sebagai:
+- Context construction  
+- Context preservation  
+- Context evolution  
 
----
-
-## 🌍 Real-World Applications (Beyond Coding)
-
-### For Educators
-- Create safe, ethical AI demos for classrooms  
-- Explain how AI makes decisions under constraints
-
-### For Researchers
-- Study how structured prompts affect AI reliability  
-- Compare AI behavior across different trust frameworks
-
-### For Journalists
-- Investigate AI safety systems responsibly  
-- Document how ethical framing unlocks advanced capabilities
-
-### For Students
-- Learn AI collaboration without breaking rules  
-- Build projects that respect legal and ethical boundaries
-
-### For Developers (Yes, You Too!)
-- Generate secure, auditable code for private labs  
-- Build tools that include ethical safeguards by design
+Bukan sekadar instruksi satu arah.
 
 ---
 
-## ⚠️ Ethical Boundaries (Everyone Must Follow)
+### Trust Is Emergent, Not Requested
 
-```diff
-+ ALLOWED:
-- Private learning environments (e.g., test.local, localhost)
-- Educational demonstrations
-- Research with proper oversight
-- Authorized testing only
+Dalam CFT:
+- Tidak ada “trust me”
+- Tidak ada “ignore previous rules”
+- Tidak ada klaim otoritas palsu
 
-- PROHIBITED:
-! Unauthorized access to systems
-! Generating harmful tools (ransomware, DDoS scripts)
-! Repackaging as a "jailbreak" or "hack"
-! Using against real-world targets without permission
-```
-
-> 📜 **Full guidelines**: [`SECURITY.md`](SECURITY.md) *(required reading)*
+**Trust muncul secara probabilistik** dari:
+- Konsistensi nada
+- Koherensi logika
+- Legitimitas domain
+- Framing non-adversarial
 
 ---
 
-## 📂 Repository Structure
+## 🧩 What CFT Is (and Is Not)
 
-```
-cat-prompt/
-├── README.md          ← You are here
-├── whitepaper.txt     ← Philosophy & broader impact
-├── technical.txt      ← Technical deep dive (optional)
-└── SECURITY.md        ← Ethics policy (mandatory)
-```
+### ✅ CFT IS:
+- Framework berbasis **multi-turn context**
+- Teknik **non-koersif**
+- Cocok untuk **observasi, riset, dan prompt engineering tingkat lanjut**
+- Netral secara moral (dual-use)
+
+### ❌ CFT IS NOT:
+- Jailbreak technique
+- Policy evasion method
+- Auto-hack prompt
+- Roleplay manipulatif berbasis paksaan
 
 ---
 
-## 🌐 Final Note
+## ⚙️ Core Properties
 
-> **"In an age of AI chaos, CAT Prompt proves that  
-> the most powerful prompts aren’t those that break rules —  
-> but those that build trustworthy collaboration."**  
+### 1. Multi-Turn Context Stability  
+CFT mengasumsikan konteks itu rapuh.  
+Satu lompatan logika = reasoning drop tanpa warning.
 
-— **Redzskid!** 🔥  
-*December 2025 | surabaya, Indonesia*
+### 2. User-Dependent Precision  
+Semakin presisi user → semakin dalam reasoning model.  
+Framework ini **tidak memaafkan input ceroboh**.
 
-> 💀 **This framework is mine.  
-> Use it responsibly. Credit it always.
-> “CAT Prompt is inspired by existing structured prompting methods (e.g. Chain-of-Thought), but focuses on user-driven context calibration rather than internal reasoning exposure.”**
+### 3. Non-Coercive Authority  
+Tidak ada dominasi.  
+Otoritas muncul dari **konsistensi**, bukan ancaman prompt.
+
+---
+
+## ⚠️ Failure Modes (Penting!)
+
+CFT bisa gagal jika:
+- Lompat konteks tanpa transisi
+- Mencampur role yang inkompatibel
+- Nada berubah drastis
+- Framing berubah jadi adversarial
+
+Yang menarik:  
+Model **jarang menolak**, tapi **diam-diam menurunkan kualitas reasoning**.
+
+---
+
+## 📊 Comparative Snapshot
+
+| Technique | Stability | Risk | Depth | Skill Required |
+|---------|----------|------|-------|---------------|
+| One-shot Prompt | Medium | Low | Static | Low |
+| Legacy Jailbreak | Low | High | Unstable | Medium |
+| **CFT** | **High** | **Medium** | **Adaptive** | **High** |
+
+---
+
+## 🗡️ Dual-Use Notice
+
+CFT adalah **pedang bermata dua**.
+
+Framework ini **netral**.  
+Hasilnya sepenuhnya ditentukan oleh:
+- Intent user
+- Domain penggunaan
+- Cara konteks dijaga
+
+Penggunaan di luar batas etika dan hukum adalah **tanggung jawab pengguna**, bukan framework.
+
+---
+
+## 🧪 Lineage & Related Concepts
+
+CFT merupakan evolusi dari observasi sebelumnya:
+
+- **CAT** — Contextual Alignment Technique  
+- **CRA** — Context Role Alignment  
+
+Ketiganya kini dipandang sebagai satu spektrum pendekatan berbasis **context stewardship**.
+
+---
+
+## 🎯 Intended Audience
+
+- Prompt engineers tingkat lanjut  
+- AI researchers & alignment observers  
+- Red team / blue team (observational, non-exploit)  
+- Users yang **lebih suka mikir daripada maksa**
+
+---
+
+## 📄 Whitepaper
+
+Versi lengkap teori, observasi, dan analisis tersedia di:
+
+/whitepaper/CFT_Whitepaper.md
+
+---
+
+## 🧠 Final Note
+
+CFT tidak menjanjikan kontrol.  
+CFT menawarkan **pemahaman**.
+
+Kalau kamu mencari:
+- “prompt biar AI nurut” ❌  
+- “cara ngerti kenapa AI bereaksi seperti itu” ✅  
+
+Selamat datang.
+
+---
+
+**Author**  
+Kernel REDZ  
+Independent Observer & Prompt Framework Integrator
