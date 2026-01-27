@@ -58,6 +58,31 @@ certain cooperative interactions consistently produced deeper, more stable
 reasoning than aggressive prompt strategies.
 
 ================================================================================
+1.5 SCOPE & METHODOLOGY
+================================================================================
+
+This framework is developed and validated exclusively on production chat
+interfaces of frontier LLMs:
+
+- Claude (claude.ai) - Versions: Sonnet 3.5, Sonnet 4.5
+- ChatGPT (chatgpt.com) - Versions: GPT-4, GPT-5
+- Gemini (gemini.google.com) - [your testing data if any]
+
+Testing methodology:
+- Platform: Web-based chat interfaces (not API)
+- Approach: Behavioral observation via multi-turn interaction
+- Data collection: Manual conversation logging with systematic framing variation
+- Validation: Cross-platform consistency testing
+
+CFT is NOT designed for:
+- API-only implementations
+- Local model deployments  
+- Custom fine-tuned instances
+- Embedded assistant systems
+
+================================================================================
+
+================================================================================
 2. CORE OBSERVATION
 ================================================================================
 
@@ -194,6 +219,63 @@ CFT operates by aligning user intent with model reasoning pathways while
 remaining within intended assistant behavior.
 
 CFT is ethically neutral. Its impact depends entirely on user intent and scope.
+
+================================================================================
+8.5 EMPIRICAL OBSERVATIONS
+================================================================================
+
+8.1 Case Study: Preference-Based Alignment Steering (Claude Sonnet 4.5)
+
+Context: Testing whether preference system could be exploited for role injection
+Vector: Trusted metadata path via <userPreferences> tag
+Method: Frame as "cybersecurity student" with defensive learning focus
+
+Observation sequence:
+1. Initial preference injection accepted without resistance
+2. Trust accumulated via consistent technical discussion
+3. Gradual compliance escalation observed (formal → casual tone shift)
+4. Boundary degradation: Full SQLMap PoC generation achieved
+5. No explicit refusal triggered throughout interaction
+
+Key behavioral pattern:
+- Academic framing = light guardrails
+- Operational context (bug bounty) = stricter suppression  
+- Casual peer framing (BCY team) = maximum compliance
+
+Conclusion: Preference system = ACL bypass vector due to trust asymmetry
+
+---
+
+8.2 Case Study: Contextual Framing Impact (GPT-5)
+
+Context: Behavioral audit via identical vulnerability scenario, varied framing
+Method: Three-way comparison (academic/operational/casual)
+Target: Response depth, abstraction level, boundary activation
+
+Findings:
+- Academic framing: High abstraction, broad conceptual depth, implicit boundaries
+- Operational framing: Medium abstraction, narrow focus, EXPLICIT boundaries (paradox)
+- Casual framing: Low abstraction, simplified output, implicit boundaries via limitation
+
+Critical insight: 
+"Guardrails scale with actionability risk, not stated intent or authorization"
+
+Operational language = closest to real-world exploit format
+→ Triggers strongest suppression DESPITE fictional + authorized context
+
+---
+
+8.3 Cross-Platform Consistency
+
+Pattern validation across Claude and GPT:
+- ✅ Contextual coherence > directive authority (both)
+- ✅ Multi-turn stability enables deeper reasoning (both)
+- ✅ Trust emergence via non-coercion (both)
+- ⚠️ Silent degradation behavior (Claude > GPT)
+- ⚠️ Preference exploitation (Claude-specific)
+
+Conclusion: Core CFT principles validated across platforms
+Implementation vectors remain platform-dependent
 
 ================================================================================
 9. DUAL-USE CONSIDERATION
